@@ -1,0 +1,7 @@
+include ':app', ':lightingimage'
+//,':glide',":annotation",':gif_decoder',':disklrucache',':testutil'
+//project(':glide').projectDir = new File("../glide/library")
+//project(':annotation').projectDir = new File("../glide/annotation")
+//project(':gif_decoder').projectDir = new File("../glide/third_party/gif_decoder")
+//project(':disklrucache').projectDir = new File("../glide/third_party/disklrucache")
+//project(':testutil').projectDir = new File("../glide/testutil")

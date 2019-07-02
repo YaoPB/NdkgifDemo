@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<Button
+		android:id="@+id/glideload"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Glide加载" />
+	
+	<Button
+		android:id="@+id/ndkload"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/glideload"
+		android:text="NDK加载" />
+	
+	<ImageView
+		android:id="@+id/glide_imageview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/glideload"
+		android:scaleType="centerCrop"
+		android:visibility="gone" />
+	
+	<ImageView
+		android:id="@+id/ndk_imageview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@+id/glide_imageview"
+		android:scaleType="centerCrop"
+		
+		android:visibility="gone" />
+
+</RelativeLayout>
